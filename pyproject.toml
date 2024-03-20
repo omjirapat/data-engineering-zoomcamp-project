@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "data-engineering-zoomcamp-project"
+version = "0.1.0"
+description = "Data Engineering Zoomcamp Project"
+authors = ["Jirapat Intaaue <om.ji@datacafethailand.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+dagster = "^1.6.11"
+dagster-webserver = "^1.6.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
