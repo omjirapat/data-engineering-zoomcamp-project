@@ -1,3 +1,6 @@
+[tool.dagster]
+module_name = "dags"
+
 [tool.poetry]
 name = "data-engineering-zoomcamp-project"
 version = "0.1.0"
@@ -7,8 +10,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-dagster = "^1.6.11"
-dagster-webserver = "^1.6.11"
+dagit = "^1.4.14"
+dagster = "^1.4.14"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+urllib3 = "1.26.16"
+dagster-gcp = "^0.22.14"
+google-cloud-storage = "^2.16.0"
+google-auth = "^2.29.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+mypy = "^1.5.1"
 
 [build-system]
 requires = ["poetry-core"]
