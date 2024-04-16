@@ -138,7 +138,7 @@ dmypy.json
 .pyre/
 
 # Dagster development
-dagster/workspace.yaml 
+dagster/workspace.yaml
 dagster/dagster-venv/*
 dagster/dagster_home/logs
 dagster/dagster_home/history
