@@ -44,6 +44,11 @@ export environment variable
 export GOOGLE_APPLICATION_CREDENTIALS= "<path to your key>"
 ```
 
+example
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/c/Users/ADMIN/.google/credentials/google_credentials.json"
+```
+
 #### Terraform
 
 create gcs bucket
