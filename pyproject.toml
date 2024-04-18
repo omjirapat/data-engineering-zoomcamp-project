@@ -18,6 +18,7 @@ urllib3 = "1.26.16"
 dagster-gcp = "^0.22.14"
 google-cloud-storage = "^2.16.0"
 google-auth = "^2.29.0"
+pyspark = "^3.5.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
