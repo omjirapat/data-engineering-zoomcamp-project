@@ -59,4 +59,4 @@ def create_bigquery_external_table(load_data_and_upload_to_gcs):
     query_job = bigquery_client.query(ddl)
     query_job.result() 
     return None
-#test 1
+#test 1,2
